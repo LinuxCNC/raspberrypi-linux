@@ -175,6 +175,7 @@ Homepage: http://www.kernel.org/
 
 Package: $packagename
 Architecture: $debarch
+Conflicts: raspberrpi-kernel
 Description: Linux kernel, version $version
  This package contains the Linux kernel, modules and corresponding other
  files, version: $version.
