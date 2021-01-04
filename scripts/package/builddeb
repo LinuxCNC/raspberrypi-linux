@@ -70,6 +70,9 @@ um)
 parisc|mips|powerpc)
 	installed_image_path="boot/vmlinux-$version"
 	;;
+arm)
+	installed_image_path="boot/kernel7l.img"
+	;;
 *)
 	installed_image_path="boot/vmlinuz-$version"
 esac

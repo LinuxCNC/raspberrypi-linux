@@ -179,7 +179,9 @@ Homepage: http://www.kernel.org/
 
 Package: $packagename
 Architecture: $debarch
-Conflicts: raspberrpi-kernel
+Provides: linux-image
+Conflicts: linux-image
+Replaces: linux-image
 Description: Linux kernel, version $version
  This package contains the Linux kernel, modules and corresponding other
  files, version: $version.
